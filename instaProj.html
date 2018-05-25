@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         
@@ -14,36 +17,16 @@
     <body>
         
 <!--Instagram LOGO-->    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container-fluid mx-5">
-                <a class="navbar-brand text-secondary" href="#" style="font-size: 35px;"><i class="fab fa-instagram mr-2"></i>Instagram</a>
+                <a class="navbar-brand text-secondary" href="galleryLink.html" style="font-size: 35px;"><i class="fab fa-instagram mr-2"></i>Instagram</a>
                 
                 
 <!--Right buttons-->    
                 <div class=" row justify-content-end">
                     <button class="btn btn-success my-2 my-sm-0" type="button" 
                         data-toggle="modal" data-target="#exampleModal">Create a new post</button>
-<!--     MODAL    -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header"></div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="form-group">
-                                            <textarea class="form-control" id="message-text"></textarea>
-                                        </div>
-                                    </form>
-                                    <button type="button" class="btn btn-light"><i class="fas fa-camera"></i></button>
-                                    <button type="button" class="btn btn-light"><i class="fas fa-map-marker-alt"></i></button>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
-                                    <button type="button" class="btn btn-success">Publish</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
 <!--Dropdown -->  
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item dropdown">
@@ -63,15 +46,14 @@
         
         
         
-        
-<div class="jumbotron jumbotron-fluid">       
+       
       
         
 <!-- BUTTONS DIVIDING MAIN CONTENT -->
         <div class="container-fluid my-3">
             <div class="row justify-content-center">
-                <a class="btn btn-outline-secondary" href="#" role="button" style="border-style: none;"><i class="fas fa-th"></i></a>
-                <a class="btn btn-outline-secondary" href="#" role="button" style="border-style: none;"><i class="fas fa-stop"></i></a>
+                <a class="btn btn-outline-secondary" href="galleryLink.html" role="button" style="border-style: none;"><i class="fas fa-th"></i></a>
+                <a class="btn btn-outline-secondary active" href="instaProj.html" role="button" style="border-style: none;" aria-pressed="true"><i class="fas fa-stop"></i></a>
             </div>
         </div>
         
@@ -84,69 +66,93 @@
         
 <!-- GALERYY STARTS HERE-->
 
+<div class="jumbotron jumbotron-fluid">
+
     
         
-        <div class="container bg-white galleryContainer">
-            <div class="postContainer justify-content-mid">
-                <div class="row postHeaderContainer">
-                    <div class=" col-6 postHeaderTitleContainer"><h2 class="fixPadd">My First Photo</h2></div>
-                    <div class="col-6 postHeaderDateContainer  text-right"><p class=" fixPadd">12/14</p></div>
-                    </div>
-                    <div class="postContentContainer"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div>
-                    <div class="row">
-                        <div class="col-12 postCommentContainer"><p class=" fixPadd">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
-                            I am learning to code with #Breathecode</p></div>
-                    </div>
+        <div class="container rounded bg-white mb-5">
+            <div class="row pt-2">
+                <div class="col-6"><h2 class="fixPadd">My First Photo</h2></div>
+                <div class="col-6 text-right"><p class="text-secondary" style="font-size: 27px;">12/14</p></div>
+            </div>
+            <div class="row"><div class="col-12 px-0"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div></div>
+            <div class="row"><div class="col-12"><h3 class="mt-2">23 Likes</h3></div></div>
+            <div class="row">
+                <div class="col-12 postCommentContainer"><p style="font-size: 23px;">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
+                    I am learning to code with #Breathecode</p></div>
+            </div>
+            <div class="row text-secondary mb-2" style="font-size: 22px;">
+                <div class="col-1 text-right"><i class="far fa-heart"></i></div>
+                <div class="col-11"><p>Comment...</p></div>
             </div>
         </div>
         
         
-        <div class="container bg-white galleryContainer">
-            <div class="postContainer justify-content-mid">
-                <div class="row postHeaderContainer">
-                    <div class=" col-6 postHeaderTitleContainer"><h2 class="fixPadd">My First Photo</h2></div>
-                    <div class="col-6 postHeaderDateContainer  text-right"><p class=" fixPadd">12/14</p></div>
-                    </div>
-                    <div class="postContentContainer"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div>
-                    <div class="row">
-                        <div class="col-12 postCommentContainer"><p class=" fixPadd">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
-                            I am learning to code with #Breathecode</p></div>
-                    </div>
+        <div class="container rounded bg-white mb-5">
+            <div class="row pt-2">
+                <div class="col-6"><h2 class="fixPadd">My First Photo</h2></div>
+                <div class="col-6 text-right"><p class="text-secondary" style="font-size: 27px;">12/14</p></div>
+            </div>
+            <div class="row"><div class="col-12 px-0"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div></div>
+            <div class="row"><div class="col-12"><h3 class="mt-2">23 Likes</h3></div></div>
+            <div class="row">
+                <div class="col-12 postCommentContainer"><p style="font-size: 23px;">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
+                    I am learning to code with #Breathecode</p></div>
+            </div>
+            <div class="row text-secondary mb-2" style="font-size: 22px;">
+                <div class="col-1 text-right"><i class="far fa-heart"></i></div>
+                <div class="col-11"><p>Comment...</p></div>
             </div>
         </div>
         
-        
-        
-        
-        <div class="container bg-white galleryContainer">
-            <div class="postContainer justify-content-mid">
-                <div class="row postHeaderContainer">
-                    <div class=" col-6 postHeaderTitleContainer"><h2 class="fixPadd">My First Photo</h2></div>
-                    <div class="col-6 postHeaderDateContainer  text-right"><p class=" fixPadd">12/14</p></div>
-                    </div>
-                    <div class="postContentContainer"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div>
-                    <div class="row">
-                        <div class="col-12 postCommentContainer"><p class=" fixPadd">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
-                            I am learning to code with #Breathecode</p></div>
-                    </div>
+        <div class="container rounded bg-white mb-5">
+            <div class="row pt-2">
+                <div class="col-6"><h2 class="fixPadd">My First Photo</h2></div>
+                <div class="col-6 text-right"><p class="text-secondary" style="font-size: 27px;">12/14</p></div>
+            </div>
+            <div class="row"><div class="col-12 px-0"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div></div>
+            <div class="row"><div class="col-12"><h3 class="mt-2">23 Likes</h3></div></div>
+            <div class="row">
+                <div class="col-12 postCommentContainer"><p style="font-size: 23px;">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
+                    I am learning to code with #Breathecode</p></div>
+            </div>
+            <div class="row text-secondary mb-2" style="font-size: 22px;">
+                <div class="col-1 text-right"><i class="far fa-heart"></i></div>
+                <div class="col-11"><p>Comment...</p></div>
             </div>
         </div>
         
+        <div class="container rounded bg-white mb-5">
+            <div class="row pt-2">
+                <div class="col-6"><h2 class="fixPadd">My First Photo</h2></div>
+                <div class="col-6 text-right"><p class="text-secondary" style="font-size: 27px;">12/14</p></div>
+            </div>
+            <div class="row"><div class="col-12 px-0"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div></div>
+            <div class="row"><div class="col-12"><h3 class="mt-2">23 Likes</h3></div></div>
+            <div class="row">
+                <div class="col-12 postCommentContainer"><p style="font-size: 23px;">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
+                    I am learning to code with #Breathecode</p></div>
+            </div>
+            <div class="row text-secondary mb-2" style="font-size: 22px;">
+                <div class="col-1 text-right"><i class="far fa-heart"></i></div>
+                <div class="col-11"><p>Comment...</p></div>
+            </div>
+        </div>
         
-        
-        
-        
-        <div class="container bg-white galleryContainer">
-            <div class="postContainer justify-content-mid">
-                <div class="row postHeaderContainer">
-                    <div class=" col-6 postHeaderTitleContainer"><h2 class="fixPadd">My First Photo</h2></div>
-                    <div class="col-6 postHeaderDateContainer  text-right"><p class=" fixPadd">12/14</p></div>
-                    </div>
-                    <div class="postContentContainer"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div>
-                    <div class="row">
-                        <div class="col-12 postCommentContainer"><p class=" fixPadd">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
-                            I am learning to code with #Breathecode</p></div>
-                    </div>
+        <div class="container rounded bg-white mb-5">
+            <div class="row pt-2">
+                <div class="col-6"><h2 class="fixPadd">My First Photo</h2></div>
+                <div class="col-6 text-right"><p class="text-secondary" style="font-size: 27px;">12/14</p></div>
+            </div>
+            <div class="row"><div class="col-12 px-0"><img src="https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg" class="img-fluid"></img></div></div>
+            <div class="row"><div class="col-12"><h3 class="mt-2">23 Likes</h3></div></div>
+            <div class="row">
+                <div class="col-12 postCommentContainer"><p style="font-size: 23px;">This is my first photo of the feed, this is a multi line commnet for testing purposes. 
+                    I am learning to code with #Breathecode</p></div>
+            </div>
+            <div class="row text-secondary mb-2" style="font-size: 22px;">
+                <div class="col-1 text-right"><i class="far fa-heart"></i></div>
+                <div class="col-11"><p>Comment...</p></div>
             </div>
         </div>
         
@@ -173,6 +179,27 @@
             
         
         
+        <!--     MODAL    -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header"></div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                    <button type="button" class="btn btn-light"><i class="fas fa-camera"></i></button>
+                                    <button type="button" class="btn btn-light"><i class="fas fa-map-marker-alt"></i></button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         
         
         
